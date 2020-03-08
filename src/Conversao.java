@@ -12,6 +12,13 @@ public class Conversao {
 		int valor3 = 10;
 		double valor4 = (double) valor3;
 		
+		double valor5 = 10.0;
+		int valor6 = (int) valor5;
+		
+		System.out.println("Valor com casas decimais: " + valor + " | Valor inteiro: " + valor2);
+		System.out.println("Novo: " + valor3 + " | Convertido: " + valor4 );
+		System.out.println("Convertido: " + valor6 );
+		
 		
 	}
 }
